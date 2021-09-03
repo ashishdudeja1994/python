@@ -1,0 +1,46 @@
+/* includes alternating gray and white with on-hover color */
+                    .mystyle {
+                        border: 1px solid #B0CBEF;
+                        border-width: 1px 0px 0px 1px;
+                        font-size: 10pt;
+                        font-family: Arial;
+                        font-weight: 100;
+                        border-spacing: 0px;
+                    }
+
+                    .mystyle TH {
+                        background-image: url(excel-2007-header-bg.gif);
+                        background-repeat: repeat-x; 
+                        font-weight: normal;
+                        font-size: 14px;
+                        border: 1px solid #9EB6CE;
+                        border-width: 0px 1px 1px 0px;
+                        height: 17px;
+                    }
+
+                    .mystyle TD {
+                        border: 0px;
+                        background-color: white;
+                        padding: 0px 4px 0px 2px;
+                        border: 1px solid #D0D7E5;
+                        border-width: 0px 1px 1px 0px;
+                    }
+
+                    .mystyle TD B {
+                        border: 0px;
+                        background-color: white;
+                        font-weight: bold;
+                    }
+
+                    .mystyle TD.heading {
+                        background-color: #E4ECF7;
+                        text-align: center;
+                        border: 1px solid #9EB6CE;
+                        border-width: 0px 1px 1px 0px;
+                    }
+
+                    .mystyle TH.heading {
+                        background-image: url(excel-2007-header-left.gif);
+                        background-repeat: none;
+                    }
+                    
